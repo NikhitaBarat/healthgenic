@@ -1,0 +1,29 @@
+.hero-component {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.hero-right img {
+    height: 30rem;
+}
+
+.hero-left {
+    font-family: 'Inconsolata', monospace;
+}
+
+.hero-left h1 {
+    font-size: 3.5rem;
+}
+
+.analyse-btn {
+    width: fit-content;
+    color: #07055F;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background: #33B968;
+    cursor: pointer;
+}
