@@ -1,0 +1,31 @@
+.home-page {
+    position: fixed;
+    z-index: -3;
+    background: #0A2520;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+section .spreads {
+    position: absolute;
+    filter: blur(250px);
+    z-index: -2;
+   
+  }
+  
+  section .spreads:nth-child(1) {
+    background-color: #3B59C5;
+    height: 200px;
+    width: 200px;
+    margin-left: 25rem;
+    margin-top: 10rem;
+  }
+  
+  section .spreads:nth-child(2) {
+    background-color: #4fff23;
+    height: 300px;
+    width: 300px;
+    margin-left: 60rem;
+    margin-top: 30rem;
+  }
