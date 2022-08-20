@@ -7,9 +7,9 @@ import { Logo } from '../../assets'
 // components
 
 // styles
-import './header.styles.css'
+import './headerlight.styles.css'
 
-const Header = () => {
+const Headerlight = () => {
   const NavOptions = [
     {
         option: 'Home',
@@ -32,17 +32,18 @@ const Header = () => {
             <Link to="/">
                 <img src={Logo} alt="" className="logo" />
             </Link>
-            <h3>Healthgenic</h3>
+            <h3 className='dark'>Healthgenic</h3>
         </div>
         
         <div className="nav-center">
             <ul>
                 {NavOptions.map((nav) => (
-                    <li>
-                        <Link to={nav.route}>
+                    <li className='dark'>
+                        <Link to={nav.route} className='dark'>
                             {nav.option}
                         </Link>
                     </li>
+
                 ))}
             </ul>
         </div>
@@ -56,4 +57,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Headerlight
