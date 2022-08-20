@@ -1,0 +1,24 @@
+.image img{
+    
+width: 20rem;
+}
+
+.image{
+   display: flex;
+   justify-content: center;
+}
+h1{
+position: relative;
+margin-top: -7rem;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 3rem;
+font-size: 3rem;
+line-height: 3rem;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #000000;
+}
