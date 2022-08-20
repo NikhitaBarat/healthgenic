@@ -1,4 +1,9 @@
 import React from 'react'
+
+// components
+
+
+// styles
 import './home.styles.css'
 
 const Home = () => {
