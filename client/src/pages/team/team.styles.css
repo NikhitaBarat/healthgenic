@@ -7,10 +7,10 @@ width: 20rem;
    display: flex;
    justify-content: center;
 }
-h1{
+.heading{
 position: relative;
 margin-top: -7rem;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 3rem;
 font-size: 3rem;
@@ -21,4 +21,22 @@ text-align: center;
 letter-spacing: -0.05em;
 
 color: #000000;
+}
+.member{
+
+margin-top: 7rem;
+ 
+display: flex;
+justify-content: center;
+height: 10rem;
+}
+.profileimg{
+    height: 14rem;
+    margin: 0 6rem;
+}
+.member1,.member2,.member3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    
 }
