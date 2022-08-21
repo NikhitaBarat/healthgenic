@@ -1,0 +1,132 @@
+
+.get-nutrition {
+    height: 25rem;
+    width: 40rem;
+    background-color: #9BDB85;
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.anayse-health {
+    height: 25rem;
+    width: 20rem;
+    background-color: #EFF17E;
+    margin-left: 5rem;
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.nutrition-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.inp-search {
+    width: 65rem;
+    padding: .8rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: #f3f3ce;
+    border-radius: 8px;
+}
+
+.qty-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: 'Kreon', serif;
+}
+
+.quantity-sec {
+    width: 40rem;
+}
+.quantity-sec select {
+    width: 80%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    background-color: #f6f6b9;
+    border-radius: 8px;
+}
+
+.unit-sec {
+    width: 20rem;
+    margin-left: 5rem;
+}
+
+.unit-sec input{
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    background-color: #f6f6b9;
+    border-radius: 8px;
+
+
+}
+
+.health-tag {
+    background-color: #9BDB85;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    margin: .5rem;
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid #55744b;
+}
+
+.get-calories-section {
+    display: flex;
+    justify-content: center;
+}
+
+.tags-section {
+    width: 65rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-nutritents{
+    font-family: 'Kreon', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.other-nutritents h3{
+    font-size: 2rem;
+}
+
+.other-nutritents p {
+    font-size: 1.5rem;
+}
+
+.nutrients-content {
+    width: 65rem;
+}
+
+.nutrients-content {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ntr-item {
+    margin: 1rem 0;
+}

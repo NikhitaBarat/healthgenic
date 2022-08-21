@@ -2,10 +2,10 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 
 // pages
-import { Home, Blogs, Teams } from './pages';
+import { Home, Blogs, Teams, Dashboard } from './pages';
 
 // components
-import { Header,Headerlight } from './components';
+import { Header, Headerlight } from './components';
 
 
 
@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route index element={<Home />}/>
         <Route path='blogs' element={<Blogs/>} />
+        <Route path='dashboard' element={<Dashboard />} />
         <Route path='team' element={<Teams/>}/>
       </Routes>
     </div>
