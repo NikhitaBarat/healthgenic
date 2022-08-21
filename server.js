@@ -16,11 +16,19 @@ app.use(express.json())
 
 
 //routes
-// app.use(express.static(path.join(__dirname, "./client/build")))
+app.use(express.static(path.join(__dirname, "./client/build")))
 app.get('/', (req, res) => {
-  // res.sendFile(path.join(__dirname,'./client/build', 'index.html'))
-  res.send('Hello World!')
+  res.sendFile(path.join(__dirname,'./client/build', 'index.html'))
 })
+
+app.get('/team', (req, res) => {
+  res.sendFile(path.join(__dirname,'./client/build', 'index.html'))
+})
+
+app.get('/dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname,'./client/build', 'index.html'))
+})
+
 
 // api routes
 app.use('/api/v1/', routeBlog)
