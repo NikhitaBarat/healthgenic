@@ -1,4 +1,19 @@
 .abstract-section {
     display: flex;
     justify-content: center;
+
+    margin-top: 10rem;
+}
+
+.med-image {
+    height: 40rem;
+}
+
+.quote-1 {
+    width: 10rem;
+    position: relative;
+    z-index: -2;
+    margin-left: -10rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
