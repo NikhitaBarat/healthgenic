@@ -2,7 +2,7 @@ const express = require('express')
 const dotenv = require('dotenv')
 const cors = require('cors')
 const mongoose = require('mongoose')
-const path = require('path')
+// const path = require('path')
 const routeBlog = require('./routes/blog.routes')
 const nutritionApi = require('./api/nutrition.api')
 
@@ -27,7 +27,7 @@ app.use('/api/v1/', routeBlog)
 app.use('/api/nutrition/', nutritionApi)
 
 
-// database connections
+// database_connections
 const databaseConnection = () => {
   
   mongoose.connect(process.env.ATLAS_URI)
@@ -39,7 +39,7 @@ const databaseConnection = () => {
   })
 }
 
-// databaseConnection()
+databaseConnection()
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`)
