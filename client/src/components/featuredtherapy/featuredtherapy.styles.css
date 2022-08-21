@@ -1,0 +1,23 @@
+.therapy-left img {
+    height: 20rem;
+}
+
+.featured-therapy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.therapy-right {
+    width: 30rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.therapy-right h1 {
+    font-size: 3rem;
+}
+
+.therapy-right p {
+    color: rgb(76, 121, 76);
+}
