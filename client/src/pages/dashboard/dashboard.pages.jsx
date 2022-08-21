@@ -77,7 +77,8 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {data.length === 0 ? (
+        
+        { data.length === 0 ? (
           <p className="looking">Looking for something</p>
         ) : (
           <div>
@@ -130,8 +131,8 @@ const Dashboard = () => {
             </div>
           </div>
         )}
-      </div>)
-
+      </div> 
+    )
     </div>
   );
 };
