@@ -1,0 +1,30 @@
+.health-matter-component {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-left {
+    width: 40rem;
+    text-align: center;
+}
+
+.health-left h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.health-left p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.health-right {
+    position: relative;
+    margin-left: -4rem;
+}
+
+.health-right img {
+    height: 40rem;
+}
