@@ -48,9 +48,11 @@ const Header = () => {
         </div>
 
         <div className="nav-right">
+          <Link to="/dashboard">
             <div className="get-started">
                 <p>Get Started</p>
             </div>
+          </Link>
         </div>
     </header>
   )
